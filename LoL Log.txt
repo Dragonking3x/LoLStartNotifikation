@@ -1,0 +1,1689 @@
+000000.000| ALWAYS| Logging started at 2016-04-07T17:16:05.012
+000000.000|   OKAY| Riot::RADS::Reader::RadsMain::Initialize: RADS library initializing with specified working directory "C:\Riot Games\League of Legends\RADS\solutions\lol_game_client_sln\releases\0.0.1.128\deploy".
+000000.000|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.000|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/solutionmanifest")
+000000.000|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/configurationmanifest")
+000000.000|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client_en_gb/releases/0.0.1.41/releasemanifest")
+000000.040|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/lol_game_client/releases/0.0.1.69/releasemanifest")
+000000.431|   OKAY| Unable to process data overlay file ./ToolsConfig.xml, defaulting to overlay now
+000000.431| ALWAYS| Data overlay start folder initialized to DATA, Content/Src
+000000.431| ALWAYS| Global logging level set to   WARN
+000000.431| ALWAYS| GameClock LockToSystemClock time: 0.000000 diff: 0.431287
+000000.433| ALWAYS| Build Version: Version 6.7.139.4318 (Apr  5 2016/15:22:31) [PUBLIC] <Releases/6.7> ChangeList: 1394318
+000000.556| ALWAYS| Started System Init
+000000.557| ALWAYS| Maestro Init
+000000.560| ALWAYS| Maestro completed init
+000000.561| ALWAYS| zip manifest, 'ClientZips.txt', not found (expected).
+000000.561|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Loadouts/SummonerBadges.bin" because it's not in the manifest.
+000000.575| ALWAYS| StartSession called
+000000.575| ALWAYS| Started Init event arguments
+000000.576| ALWAYS| Waiting until connection...
+000000.729| ALWAYS| InitRenderer() enter
+000000.729| ALWAYS| r3dRenderLayer::Init(0x00200D20) enter
+000000.743| ALWAYS| r3dRenderLayer::Init() exit successfully
+000000.917| ALWAYS| Loaded locale en_GB via fontconfig
+000000.920| ALWAYS| IME file, 'C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/deploy/Data/Menu/IMEConfig.xml', is optional. The following error is expected.
+000000.920|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000000.920|  ERROR| Missing file on r3dGFile open :C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/deploy/Data/Menu/IMEConfig.xml
+000000.920|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/deploy/Data/Menu/IMEConfig.xml" because it's not in the manifest.
+000000.920|  ERROR| Missing file on r3dGFile open :\Bin\Data\C:/Riot Games/League of Legends/RADS/solutions/lol_game_client_sln/releases/0.0.1.128/deploy/Data/Menu/IMEConfig.xml
+000000.925| ALWAYS| SharedConfigPath: C:\Riot Games\League of Legends\RADS\projects/lol_air_client/releases/0.0.1.195/deploy/preferences/
+000000.926| ALWAYS| r3dRenderer::SetMode: Trying resolution 1920x1080, bpp 32, windowMode 2, vsync on...
+000000.926| ALWAYS| In Riot::Win::Resize: Resizing the window and retrieving monitor info
+000000.926| ALWAYS| In Riot::Win::Resize: Initial VideoMode(bda8560) and resolution (1920 x 1080) 
+000000.926| ALWAYS| In Riot::Win::Resize: VideoMode(bda8560) and resolution (960 x 540) 
+000000.932| ALWAYS| In Riot::Win::Resize: Resized window to resolution 1920x1080
+000000.932| ALWAYS| rr3dRenderLayer::InitDevice(XRes = 1920, YRes = 1080, BPP = 32,  Flags=1284) enter
+000000.932| ALWAYS| rr3dRenderLayer::InitDevice: Creating d3d device
+000000.932| ALWAYS| CreateDevice: Disabling EnableAutoDepthStencil in favor of an INTZ depth buffer.
+000000.932| ALWAYS| CreateDevice: Disabling present depth discard in favor of an INTZ depth buffer.
+000001.068| ALWAYS| Success
+000001.068| ALWAYS| r3dRenderLayer::RecreateOwnedResources
+000001.120| ALWAYS| r3dRenderLayer::InitResources exit successfully
+000001.120|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/Fonts.bin" because it's not in the manifest.
+000001.135| ALWAYS| Waiting for client ID
+000001.336| ALWAYS| {"messageType":"riot__game_client__connection_info","message_body":"Hard Connect"}
+000001.336| ALWAYS| Received client ID
+000001.337| ALWAYS| Set focus to app
+000001.337| ALWAYS| Input started
+000001.353| ALWAYS| Query Status Req started
+000001.572| ALWAYS| Query Status Req ended
+000001.573| ALWAYS| Waiting for server response...
+000001.661| ALWAYS| OS Version String: 10  Professional, x64
+000001.661| ALWAYS| CPU: GenuineIntel, Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, Intel64 Family 6 Model 60 Stepping 3, 4000 (0 core)
+000001.661| ALWAYS| Measured processor speed: 4081
+000001.661| ALWAYS| Display info: NVIDIA GeForce GTX 970 4293918720 10.18.13.6200
+000001.661| ALWAYS| Physical memory: 12884901888
+000001.661| ALWAYS| {"messageType":"hardware_information","message_body":"Hardware Info","operating_system":"10  Professional, x64","cpu":"GenuineIntel","cpu_processor":"Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz","cpu_identifier":"Intel64 Family 6 Model 60 Stepping 3","cpu_topology":4,"gpu":"NVIDIA GeForce GTX 970","video_memory":"4293918720","driver_version":"10.18.13.6200","physical_memory":12884901888,"wine":false}
+000001.661| ALWAYS| -----HARDWARE INFORMATION START-----
+000001.661| ALWAYS| Operating System: 10  Professional, x64
+000001.661| ALWAYS| GPU Manufacturer: NVIDIA GeForce GTX 970
+000001.661| ALWAYS| GPU Memory: 4293918720
+000001.661| ALWAYS| GPU Driver Version: 10.18.13.6200
+000001.661| ALWAYS| CPU Brand: GenuineIntel
+000001.661| ALWAYS| CPU Processor Name: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+000001.661| ALWAYS| CPU Identifier: Intel64 Family 6 Model 60 Stepping 3
+000001.661| ALWAYS| CPU Speed: 4000
+000001.661| ALWAYS| CPU Topology: 4 Core
+000001.661| ALWAYS| Physical memory: 12884901888
+000001.661| ALWAYS| -----HARDWARE INFORMATION END-----
+000002.176| ALWAYS| Initializing GameModeComponents for mode=CLASSIC.
+000002.176| ALWAYS| ... Processing GameMode Mutator = default.
+000002.176| ALWAYS| ... Processing GameMode Mutator = LoadingScreenBackground(Data).
+000002.176| ALWAYS| ... Processing GameMode Mutator = FOWTexture(FogOfWarOverlay.dds).
+000002.176| ALWAYS| ... Processing GameMode Mutator = HudSkin(Default).
+000002.176| ALWAYS| ... Processing GameMode Mutator = NavigationMesh(AIPath).
+000002.176| ALWAYS| ... Processing GameMode Mutator = MiniMapTexture(2DLevelMinimap.dds).
+000002.176| ALWAYS| ... Processing GameMode Mutator = MapMusic(None).
+000002.176| ALWAYS| ... Processing GameMode Mutator = BotSummonerIcon(0).
+000002.176| ALWAYS| ... Processing GameMode Mutator = EndOfGameScreenText(Default).
+000002.176| ALWAYS| ... Processing GameMode Mutator = HealthTextModifier(default).
+000002.176| ALWAYS| ... Processing GameMode Mutator = DamageTextModifier(default).
+000002.176| ALWAYS| ... Processing GameMode Mutator = MapObjectESportTeamCustomization(0).
+000002.176| ALWAYS| ... Processing GameMode Mutator = LocalizationEncryptKey(none).
+000002.176| ALWAYS| ... Processing GameMode Mutator = SuppressMinionSpawn(0).
+000002.176| ALWAYS| ... Processing GameMode Mutator = RestrictedItemShopCategories(none).
+000002.177| ALWAYS| ... Processing GameMode Mutator = UsePropertyUI(1).
+000002.177| ALWAYS| ... Processing GameMode Mutator = LevelPropsScript(CreateLevelProps.lua).
+000002.177| ALWAYS| ... Processing GameMode Mutator = NeutralMinionSpawnScript(NeutralMinionSpawn.lua).
+000002.177| ALWAYS| ... Processing GameMode Mutator = MapObjects(MapObjects.mob).
+000002.177| ALWAYS| ... Processing GameMode Mutator = SpectatorHudSkin(SpectatorUpdate).
+000002.177| ALWAYS| ... Processing GameMode Mutator = SpectatorMiniMapTexture(2DLevelMinimap.dds).
+000002.177| ALWAYS| ... Processing GameMode Mutator = WorldGeometry(room).
+000002.177| ALWAYS| ... Processing GameMode Mutator = LevelScriptFile(LevelScript.lua).
+000002.177| ALWAYS| ... Processing GameMode Mutator = NewSummonerBadgeSystem(0).
+000002.177| ALWAYS| ... Processing GameMode Mutator = CLASSIC.
+000002.177| ALWAYS| netUID: 0 defaultname
+000002.181| ALWAYS| PlayGame Started
+000002.181| ALWAYS| r3dRenderLayer::InitDefaultShaders: Initialize shaders for current rendering path
+000002.331|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/FloatingText.bin" because it's not in the manifest.
+000003.154|   WARN| General performance warning: more than 11 texture samplers are being used simultanously.
+Please bump this number if this is intentional up to 16 (inclusive)
+000003.157| ALWAYS| PlayGame Entered
+000003.157| ALWAYS| gRenderPipeline
+000003.157|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/Globals.bin" because it's not in the manifest.
+000003.157|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/FloatingHealthBars.bin" because it's not in the manifest.
+000003.320| ALWAYS| CreateParticleSystemManager
+000004.662| ALWAYS| CreateAudioManager: Create audio manager Wwise.
+000004.674| ALWAYS| AudioManager: Wwise Version v2013.2.2 initialized.
+000004.681|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeTripleKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000004.681|   WARN| Duplicate key/value pair ([OnKilledUnitOnKillingSpreeUnrealKill_YOffset3, 8] in DATA/CFG/defaults/Announcements_CLASSIC.ini
+000004.684|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Maps/Map11/Map11.bin" because it's not in the manifest.
+000005.597|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsiege/skins/base/animations/cannon_order_attack1.anm" because it's not in the manifest.
+000005.597|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsiege/skins/base/animations/cannon_order_attack2.anm" because it's not in the manifest.
+000005.598|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsiege/skins/base/animations/cannon_order_win1.anm" because it's not in the manifest.
+000005.598|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionsiege/skins/base/animations/cannon_order_death1.anm" because it's not in the manifest.
+000005.598|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionsiege/skins/base/animations/cannon_order_idle1.anm" because it's not in the manifest.
+000005.598|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsiege/skins/base/animations/cannon_order_run1.anm" because it's not in the manifest.
+000005.598|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsiege/skins/base/animations/cannon_order_attack3.anm" because it's not in the manifest.
+000005.598|  ERROR| Cant load particle system SRU_Order_CanM_death.troy
+000005.598|  ERROR| Failed to preload particle system "SRU_Order_CanM_death.troy"
+000005.608|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.608|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.608|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.608|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.615|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionsuper/skins/base/animations/superminion_blue_attack1.anm" because it's not in the manifest.
+000005.615|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionsuper/skins/base/animations/superminion_blue_attack2.anm" because it's not in the manifest.
+000005.615|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsuper/skins/base/animations/superminion_blue_idle.anm" because it's not in the manifest.
+000005.616|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionsuper/skins/base/animations/superminion_blue_death.anm" because it's not in the manifest.
+000005.616|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionsuper/skins/base/animations/superminion_blue_death2.anm" because it's not in the manifest.
+000005.616|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionsuper/skins/base/animations/superminion_blue_run.anm" because it's not in the manifest.
+000005.626|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_idle.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_run.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_attack.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_death.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_death4.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_death2.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_death3.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_attack2.anm" because it's not in the manifest.
+000005.627|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_attack3.anm" because it's not in the manifest.
+000005.628|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionmelee/skins/base/animations/minion_melee_attack3b.anm" because it's not in the manifest.
+000005.637|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionranged/skins/base/animations/minion_caster_idle.anm" because it's not in the manifest.
+000005.637|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionranged/skins/base/animations/minion_caster_death3.anm" because it's not in the manifest.
+000005.637|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionranged/skins/base/animations/minion_caster_attack2.anm" because it's not in the manifest.
+000005.637|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionranged/skins/base/animations/minion_caster_death.anm" because it's not in the manifest.
+000005.638|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionranged/skins/base/animations/minion_caster_death2.anm" because it's not in the manifest.
+000005.638|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_orderminionranged/skins/base/animations/minion_caster_run.anm" because it's not in the manifest.
+000005.638|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_orderminionranged/skins/base/animations/minion_caster_attack1.anm" because it's not in the manifest.
+000005.638|  ERROR| Cant load particle system SRU_order_cm_death_melee.troy
+000005.638|  ERROR| Failed to preload particle system "SRU_order_cm_death_melee.troy"
+000005.651|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionsiege/skins/base/animations/cannon_chaos_attack1.anm" because it's not in the manifest.
+000005.651|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionsiege/skins/base/animations/cannon_chaos_attack2.anm" because it's not in the manifest.
+000005.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionsiege/skins/base/animations/cannon_chaos_win1.anm" because it's not in the manifest.
+000005.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionsiege/skins/base/animations/cannon_chaos_death1.anm" because it's not in the manifest.
+000005.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionsiege/skins/base/animations/cannon_chaos_idle1.anm" because it's not in the manifest.
+000005.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionsiege/skins/base/animations/cannon_chaos_run1.anm" because it's not in the manifest.
+000005.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionsiege/skins/base/animations/cannon_chaos_attack3.anm" because it's not in the manifest.
+000005.652|  ERROR| Cant load particle system SRU_Chaos_CanM_death.troy
+000005.652|  ERROR| Failed to preload particle system "SRU_Chaos_CanM_death.troy"
+000005.656|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.657|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.657|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.657|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.663|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionsuper/skins/base/animations/superminion_red_attack1.anm" because it's not in the manifest.
+000005.663|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionsuper/skins/base/animations/superminion_red_attack2.anm" because it's not in the manifest.
+000005.663|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionsuper/skins/base/animations/superminion_red_death.anm" because it's not in the manifest.
+000005.664|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionsuper/skins/base/animations/superminion_red_death2.anm" because it's not in the manifest.
+000005.664|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionsuper/skins/base/animations/superminion_red_run.anm" because it's not in the manifest.
+000005.666|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.666|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.666|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.666|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.667|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.667|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.672|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionmelee/skins/base/animations/minion_melee_attack.anm" because it's not in the manifest.
+000005.672|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionmelee/skins/base/animations/minion_melee_attack2.anm" because it's not in the manifest.
+000005.672|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionmelee/skins/base/animations/minion_melee_attack3.anm" because it's not in the manifest.
+000005.680|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionranged/skins/base/animations/minion_caster_idle.anm" because it's not in the manifest.
+000005.680|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionranged/skins/base/animations/minion_caster_attack.anm" because it's not in the manifest.
+000005.680|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_chaosminionranged/skins/base/animations/minion_caster_attack2.anm" because it's not in the manifest.
+000005.680|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionranged/skins/base/animations/minion_caster_chaos_death_2.anm" because it's not in the manifest.
+000005.680|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionranged/skins/base/animations/minion_caster_chaos_death.anm" because it's not in the manifest.
+000005.680|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_chaosminionranged/skins/base/animations/minion_caster_run.anm" because it's not in the manifest.
+000005.702|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_order1/skins/base/animations/sruap_orderturret1_idle1.anm" because it's not in the manifest.
+000005.702|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_order1/skins/base/animations/sruap_orderturret1_idle1_seq.anm" because it's not in the manifest.
+000005.719|  ERROR| Can not open file <TurretInitialArmor.dds> *********
+000005.719|  ERROR| Failed to load TurretInitialArmor.dds
+000005.719|   WARN| r3dTexture EX: TurretInitialArmor.dds - not found. Dummy texture created.
+000005.722|  ERROR| Can not open file <LuxCrashingBlitz2.dds> *********
+000005.722|  ERROR| Failed to load LuxCrashingBlitz2.dds
+000005.722|   WARN| r3dTexture EX: LuxCrashingBlitz2.dds - not found. Dummy texture created.
+000005.749|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1/skins/base/animations/sruap_chaosturret1_idle1.anm" because it's not in the manifest.
+000005.750|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1/skins/base/animations/sruap_chaosturret1_idle2.anm" because it's not in the manifest.
+000005.750|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1/skins/base/animations/sruap_chaosturret1_idle1_seq.anm" because it's not in the manifest.
+000005.750|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1/skins/base/animations/sruap_turret_chaos_cloth_stage1.anm" because it's not in the manifest.
+000005.750|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1/skins/base/animations/sruap_turret_chaos_cloth_stage2.anm" because it's not in the manifest.
+000005.750|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1/skins/base/animations/sruap_chaosturret1_idle0.anm" because it's not in the manifest.
+000005.788|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_idle1.anm" because it's not in the manifest.
+000005.788|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_death.anm" because it's not in the manifest.
+000005.789|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_spawn.anm" because it's not in the manifest.
+000005.789|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_idle_dead.anm" because it's not in the manifest.
+000005.789|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_respawn.anm" because it's not in the manifest.
+000005.790|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_idle2.anm" because it's not in the manifest.
+000005.790|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_idle3.anm" because it's not in the manifest.
+000005.790|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor/skins/base/animations/sruap_orderinhibitor_hold.anm" because it's not in the manifest.
+000005.812|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_idle_normal.anm" because it's not in the manifest.
+000005.812|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_death.anm" because it's not in the manifest.
+000005.813|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_spawn.anm" because it's not in the manifest.
+000005.813|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_idle_death.anm" because it's not in the manifest.
+000005.813|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_idle_hold.anm" because it's not in the manifest.
+000005.813|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_respawn.anm" because it's not in the manifest.
+000005.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_idle_normal2.anm" because it's not in the manifest.
+000005.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor/skins/base/animations/sruap_chaosinhibitor_idle_normal3.anm" because it's not in the manifest.
+000005.867|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRUAP_OrderNexus/skins/base/animations/SRUAP_OrderNexus_death.anm" because it's not in the manifest.
+000005.868|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRUAP_OrderNexus/skins/base/animations/SRUAP_OrderNexus_idle.anm" because it's not in the manifest.
+000005.868|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRUAP_OrderNexus/skins/base/animations/SRUAP_OrderNexus_spawn.anm" because it's not in the manifest.
+000005.868|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRUAP_OrderNexus/skins/base/animations/SRUAP_OrderNexus_spawn_hold.anm" because it's not in the manifest.
+000005.906|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosnexus/skins/base/animations/sruap_chaosnexus_death.anm" because it's not in the manifest.
+000005.906|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosnexus/skins/base/animations/sruap_chaosnexus_idle.anm" because it's not in the manifest.
+000005.907|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosnexus/skins/base/animations/sruap_chaosnexus_spawn_hold.anm" because it's not in the manifest.
+000005.907|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosnexus/skins/base/animations/sruap_chaosnexus_spawn.anm" because it's not in the manifest.
+000005.907|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosnexus/skins/base/animations/sruap_chaosnexus_idlein.anm" because it's not in the manifest.
+000005.910|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Blue/SRU_Blue.bin" because it's not in the manifest.
+000005.911|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_SRU_J/brush_SRU_J.bin" because it's not in the manifest.
+000005.912|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_SRU_A/brush_SRU_A.bin" because it's not in the manifest.
+000005.917|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.917|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.918|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.918|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.918|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000005.918|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000005.935|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_attack1.anm" because it's not in the manifest.
+000005.935|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_attack2.anm" because it's not in the manifest.
+000005.935|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_spawn.anm" because it's not in the manifest.
+000005.936|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_blue/skins/base/animations/sru_blue_idle_normal.anm" because it's not in the manifest.
+000005.936|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_attack3.anm" because it's not in the manifest.
+000005.936|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_idle_aggro.anm" because it's not in the manifest.
+000005.936|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_run.anm" because it's not in the manifest.
+000005.936|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_idle_n2a.anm" because it's not in the manifest.
+000005.937|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_blue/skins/base/animations/sru_blue_idle_a2n.anm" because it's not in the manifest.
+000005.937|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_death.anm" because it's not in the manifest.
+000005.937|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_idle_aggro2.anm" because it's not in the manifest.
+000005.937|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Blue/skins/base/animations/SRU_Blue_idle_aggro3.anm" because it's not in the manifest.
+000005.937|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/brush_sru_j/skins/base/brush_test_bb_a.anm" because it's not in the manifest.
+000005.938|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_blue/skins/base/animations/sru_blue_idle_lookat_l.anm" because it's not in the manifest.
+000005.938|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_blue/skins/base/animations/sru_blue_idle_lookat_m.anm" because it's not in the manifest.
+000005.938|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_blue/skins/base/animations/sru_blue_idle_lookat_r.anm" because it's not in the manifest.
+000005.975|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_BlueMini/SRU_BlueMini.bin" because it's not in the manifest.
+000005.984|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_run.anm" because it's not in the manifest.
+000005.984|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_death.anm" because it's not in the manifest.
+000005.984|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_idle1.anm" because it's not in the manifest.
+000005.984|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_attack1.anm" because it's not in the manifest.
+000005.984|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_spawn2.anm" because it's not in the manifest.
+000005.985|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_intro_dormant.anm" because it's not in the manifest.
+000005.985|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_attack2.anm" because it's not in the manifest.
+000005.985|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_BlueMini/skins/base/animations/SRU_BlueMini_idle2.anm" because it's not in the manifest.
+000005.985|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_lookat_0.anm" because it's not in the manifest.
+000005.985|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_lookat_l.anm" because it's not in the manifest.
+000005.985|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_lookat_r.anm" because it's not in the manifest.
+000005.992|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_BlueMini2/SRU_BlueMini2.bin" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_run.anm" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_death.anm" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_idle1.anm" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_attack1.anm" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_spawn1.anm" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_intro_dormant.anm" because it's not in the manifest.
+000005.997|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_attack2.anm" because it's not in the manifest.
+000005.998|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bluemini/skins/base/animations/sru_bluemini_idle2.anm" because it's not in the manifest.
+000006.000|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Red/SRU_Red.bin" because it's not in the manifest.
+000006.017|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_idle1.anm" because it's not in the manifest.
+000006.017|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_attack1.anm" because it's not in the manifest.
+000006.018|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_idle2.anm" because it's not in the manifest.
+000006.018|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_death.anm" because it's not in the manifest.
+000006.018|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_run.anm" because it's not in the manifest.
+000006.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_attack3.anm" because it's not in the manifest.
+000006.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_attack2.anm" because it's not in the manifest.
+000006.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_idle1_aggro.anm" because it's not in the manifest.
+000006.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_idle_n2a.anm" because it's not in the manifest.
+000006.019|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_idle1_aggro2.anm" because it's not in the manifest.
+000006.020|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_spawn.anm" because it's not in the manifest.
+000006.020|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_idle_a2n.anm" because it's not in the manifest.
+000006.020|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_lookat_r45.anm" because it's not in the manifest.
+000006.020|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_lookat_l45.anm" because it's not in the manifest.
+000006.020|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_red/skins/base/animations/sru_red_lookat_0.anm" because it's not in the manifest.
+000006.062|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_RedMini/SRU_RedMini.bin" because it's not in the manifest.
+000006.072|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_attack1.anm" because it's not in the manifest.
+000006.072|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_run.anm" because it's not in the manifest.
+000006.073|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_death.anm" because it's not in the manifest.
+000006.073|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_spawn.anm" because it's not in the manifest.
+000006.073|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_attack2.anm" because it's not in the manifest.
+000006.073|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_death2.anm" because it's not in the manifest.
+000006.073|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_idle1.anm" because it's not in the manifest.
+000006.074|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_idle1_aggro.anm" because it's not in the manifest.
+000006.074|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_idle1_aggro2.anm" because it's not in the manifest.
+000006.074|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_n2ag.anm" because it's not in the manifest.
+000006.074|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_redmini/skins/base/animations/sru_redmini_ag2n.anm" because it's not in the manifest.
+000006.090|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Murkwolf/SRU_Murkwolf.bin" because it's not in the manifest.
+000006.092|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.092|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.092|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.092|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.102|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle1.anm" because it's not in the manifest.
+000006.102|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_attack1.anm" because it's not in the manifest.
+000006.102|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_attack4.anm" because it's not in the manifest.
+000006.103|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_death.anm" because it's not in the manifest.
+000006.103|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_spawn.anm" because it's not in the manifest.
+000006.103|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_aggro1.anm" because it's not in the manifest.
+000006.103|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_aggro2.anm" because it's not in the manifest.
+000006.103|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_n2a.anm" because it's not in the manifest.
+000006.104|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_a2n.anm" because it's not in the manifest.
+000006.104|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_run.anm" because it's not in the manifest.
+000006.104|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_pounce.anm" because it's not in the manifest.
+000006.104|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_death2.anm" because it's not in the manifest.
+000006.104|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_aggro3.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle2.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle3.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle4.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle5.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_lookat_l45.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_lookat_r45.anm" because it's not in the manifest.
+000006.105|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_idle_lookat_0.anm" because it's not in the manifest.
+000006.120|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/sru_spiritwolf/sru_spiritwolf.bin" because it's not in the manifest.
+000006.121|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.121|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.122|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.122|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.125|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_spiritwolf/skins/base/animations/sru_spiritwolf_idle1.anm" because it's not in the manifest.
+000006.125|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_spiritwolf/skins/base/animations/sru_spiritwolf_idle_toaggro.anm" because it's not in the manifest.
+000006.125|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_spiritwolf/skins/base/animations/sru_spiritwolf_run_toidle.anm" because it's not in the manifest.
+000006.139|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_MurkwolfMini/SRU_MurkwolfMini.bin" because it's not in the manifest.
+000006.140|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.140|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.140|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.140|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.149|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_attack3.anm" because it's not in the manifest.
+000006.149|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolf/skins/base/animations/sru_murkwolf_attack2.anm" because it's not in the manifest.
+000006.149|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_death3.anm" because it's not in the manifest.
+000006.150|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle1.anm" because it's not in the manifest.
+000006.150|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_spawn_left.anm" because it's not in the manifest.
+000006.150|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_spawn_right.anm" because it's not in the manifest.
+000006.150|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle1_a2n.anm" because it's not in the manifest.
+000006.150|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle1_n2a.anm" because it's not in the manifest.
+000006.150|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle2.anm" because it's not in the manifest.
+000006.151|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle3.anm" because it's not in the manifest.
+000006.151|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle4.anm" because it's not in the manifest.
+000006.151|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_howl.anm" because it's not in the manifest.
+000006.151|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle5.anm" because it's not in the manifest.
+000006.151|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle_aggro2.anm" because it's not in the manifest.
+000006.151|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle_aggro3.anm" because it's not in the manifest.
+000006.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle_aggro1.anm" because it's not in the manifest.
+000006.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle6.anm" because it's not in the manifest.
+000006.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle7.anm" because it's not in the manifest.
+000006.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle1_lookat_0.anm" because it's not in the manifest.
+000006.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle1_lookat_l45.anm" because it's not in the manifest.
+000006.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_murkwolfmini/skins/base/animations/sru_murkwolfmini_idle1_lookat_r45.anm" because it's not in the manifest.
+000006.156|  ERROR| Cant load particle system SRU_MurkwolfMini_idle_a2n_sound.troy
+000006.156|  ERROR| Failed to preload particle system "SRU_MurkwolfMini_idle_a2n_sound.troy"
+000006.160|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Razorbeak/SRU_Razorbeak.bin" because it's not in the manifest.
+000006.174|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro1.anm" because it's not in the manifest.
+000006.174|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_run.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_ranged_attack1.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_death.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_spawn.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_normal1.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_normal2.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro_l45.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro_r45.anm" because it's not in the manifest.
+000006.175|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro_0.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro_l135.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro_r135.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_a2n.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_n2a.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro3.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_aggro2.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_ranged_attack2.anm" because it's not in the manifest.
+000006.176|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_ranged_attack3.anm" because it's not in the manifest.
+000006.177|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_nspawn.anm" because it's not in the manifest.
+000006.177|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_normal3.anm" because it's not in the manifest.
+000006.177|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_normal4.anm" because it's not in the manifest.
+000006.177|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_death2.anm" because it's not in the manifest.
+000006.177|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeak/skins/base/animations/sru_razorbeak_idle_normal5.anm" because it's not in the manifest.
+000006.190|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_RazorbeakMini/SRU_RazorbeakMini.bin" because it's not in the manifest.
+000006.193|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.193|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.193|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.193|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.200|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_run.anm" because it's not in the manifest.
+000006.200|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_attack1.anm" because it's not in the manifest.
+000006.201|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_attack2.anm" because it's not in the manifest.
+000006.201|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_death.anm" because it's not in the manifest.
+000006.201|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_spawn2.anm" because it's not in the manifest.
+000006.201|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_spawn3.anm" because it's not in the manifest.
+000006.201|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_spawn4.anm" because it's not in the manifest.
+000006.201|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_normal1.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_normal2.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro_0.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro_l45.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro_r45.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro_r135.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro_l135.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro1.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro2.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_attack3.anm" because it's not in the manifest.
+000006.202|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_n2a.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_a2n.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_aggro3.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_death2.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_nspawn2.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_nspawn3.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_nspawn4.anm" because it's not in the manifest.
+000006.203|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_razorbeakmini/skins/base/sru_razorbeakmini_idle_normal3.anm" because it's not in the manifest.
+000006.209|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Krug/SRU_Krug.bin" because it's not in the manifest.
+000006.213|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.213|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.214|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.214|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.214|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.214|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.221|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_aggro.anm" because it's not in the manifest.
+000006.221|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_run2.anm" because it's not in the manifest.
+000006.221|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_n2ag.anm" because it's not in the manifest.
+000006.221|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_normal.anm" because it's not in the manifest.
+000006.221|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_aggro2.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_aggro3.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_aggro4.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_idle_ag2n.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_attack1.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_attack4.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_death2.anm" because it's not in the manifest.
+000006.222|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_attack5.anm" because it's not in the manifest.
+000006.223|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_spawn.anm" because it's not in the manifest.
+000006.223|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krug/skins/base/animations/krug_spawn_nj.anm" because it's not in the manifest.
+000006.223|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krug/skins/base/animations/sru_krug_idle_lookat_l.anm" because it's not in the manifest.
+000006.223|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krug/skins/base/animations/sru_krug_idle_lookat_m.anm" because it's not in the manifest.
+000006.223|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krug/skins/base/animations/sru_krug_idle_lookat_r.anm" because it's not in the manifest.
+000006.223|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.223|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.223|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.223|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.223|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.223|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.224|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.224|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.224|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.224|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.224|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.224|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.224|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.224|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.224|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.224|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.225|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.225|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.225|  ERROR| Cant load particle system SRU_Krug_FootDust.troy
+000006.225|  ERROR| Failed to preload particle system "SRU_Krug_FootDust.troy"
+000006.253|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_KrugMini/SRU_KrugMini.bin" because it's not in the manifest.
+000006.256|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.256|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.256|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.256|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.256|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.256|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.256|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.256|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.257|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.257|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.262|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krugmini/skins/base/animations/krug_mini_idle_n2ag.anm" because it's not in the manifest.
+000006.263|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krug/skins/base/animations/krug_idle_normal.anm" because it's not in the manifest.
+000006.263|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_death.anm" because it's not in the manifest.
+000006.263|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_attack2.anm" because it's not in the manifest.
+000006.263|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_Krug/skins/base/animations/Krug_attack3.anm" because it's not in the manifest.
+000006.263|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krugmini/skins/base/animations/krug_spawn_mini.anm" because it's not in the manifest.
+000006.263|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_krugmini/skins/base/animations/krug_spawn_mini_nj.anm" because it's not in the manifest.
+000006.278|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Gromp/SRU_Gromp.bin" because it's not in the manifest.
+000006.295|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1.anm" because it's not in the manifest.
+000006.295|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_attack1.anm" because it's not in the manifest.
+000006.295|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_run.anm" because it's not in the manifest.
+000006.295|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_death.anm" because it's not in the manifest.
+000006.296|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle2.anm" because it's not in the manifest.
+000006.296|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro.anm" because it's not in the manifest.
+000006.296|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle4.anm" because it's not in the manifest.
+000006.296|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle3.anm" because it's not in the manifest.
+000006.296|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro2.anm" because it's not in the manifest.
+000006.297|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro3.anm" because it's not in the manifest.
+000006.297|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_n2a.anm" because it's not in the manifest.
+000006.297|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_a2n.anm" because it's not in the manifest.
+000006.297|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_spawn.anm" because it's not in the manifest.
+000006.297|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle5.anm" because it's not in the manifest.
+000006.298|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle6.anm" because it's not in the manifest.
+000006.298|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro4.anm" because it's not in the manifest.
+000006.298|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_attack1b.anm" because it's not in the manifest.
+000006.298|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_attack1_left.anm" because it's not in the manifest.
+000006.298|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_attack1_right.anm" because it's not in the manifest.
+000006.299|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_attack1b_left.anm" because it's not in the manifest.
+000006.299|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_attack1b_right.anm" because it's not in the manifest.
+000006.299|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro_lookat_l.anm" because it's not in the manifest.
+000006.299|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro_lookat_r.anm" because it's not in the manifest.
+000006.299|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp/skins/base/animations/sru_gromp_idle1_aggro_lookat_mid.anm" because it's not in the manifest.
+000006.319|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <MushroomBuff.dds>
+
+000006.319|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find skinned mesh file <> or <>.
+
+000006.320|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Dragon/SRU_Dragon.bin" because it's not in the manifest.
+000006.328|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.328|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.354|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_hidden.anm" because it's not in the manifest.
+000006.354|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_flying_attack1.anm" because it's not in the manifest.
+000006.354|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_spawn.anm" because it's not in the manifest.
+000006.356|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_flying_spell1.anm" because it's not in the manifest.
+000006.356|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_flying_run.anm" because it's not in the manifest.
+000006.357|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_aggro1.anm" because it's not in the manifest.
+000006.357|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_normal.anm" because it's not in the manifest.
+000006.357|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_death.anm" because it's not in the manifest.
+000006.358|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_takeoff.anm" because it's not in the manifest.
+000006.358|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_normal2.anm" because it's not in the manifest.
+000006.358|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_alert1.anm" because it's not in the manifest.
+000006.358|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_al2ag.anm" because it's not in the manifest.
+000006.359|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_ag2al.anm" because it's not in the manifest.
+000006.360|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_n2al.anm" because it's not in the manifest.
+000006.360|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_al2n.anm" because it's not in the manifest.
+000006.360|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_alert2.anm" because it's not in the manifest.
+000006.360|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_alert3.anm" because it's not in the manifest.
+000006.361|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_landing.anm" because it's not in the manifest.
+000006.361|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_aggro4.anm" because it's not in the manifest.
+000006.362|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_aggro3.anm" because it's not in the manifest.
+000006.362|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_aggro5.anm" because it's not in the manifest.
+000006.362|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_aggro6.anm" because it's not in the manifest.
+000006.362|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_aggro7.anm" because it's not in the manifest.
+000006.363|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_lookat_0.anm" because it's not in the manifest.
+000006.363|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_lookat_l45.anm" because it's not in the manifest.
+000006.363|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_lookat_r45.anm" because it's not in the manifest.
+000006.363|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon/skins/base/animations/sru_dragon_idle_ag2n.anm" because it's not in the manifest.
+000006.364|  ERROR| Cant load particle system SRU_Dragon_Indicator.troy
+000006.364|  ERROR| Failed to preload particle system "SRU_Dragon_Indicator.troy"
+000006.366|  ERROR| Cant load particle system SRU_Dragon_Spawn_Pebbles
+000006.366|  ERROR| Failed to preload particle system "SRU_Dragon_Spawn_Pebbles"
+000006.380|  ERROR| Cant load particle system Mordekaiser_Base_SRU_Dragon_BA2_mouthfire.troy
+000006.380|  ERROR| Failed to preload particle system "Mordekaiser_Base_SRU_Dragon_BA2_mouthfire.troy"
+000006.386|  ERROR| Can not open file <ShyvanaDragonsDescent.dds> *********
+000006.386|  ERROR| Failed to load ShyvanaDragonsDescent.dds
+000006.386|   WARN| r3dTexture EX: ShyvanaDragonsDescent.dds - not found. Dummy texture created.
+000006.393|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Gangplank_Base_taunt_flames.dds>
+
+000006.426|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Baron/SRU_Baron.bin" because it's not in the manifest.
+000006.442|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberender/testcuberender.bin" because it's not in the manifest.
+000006.456|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/testcuberender/animations/idle1.anm" because it's not in the manifest.
+000006.462|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.462|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.515|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spawn.anm" because it's not in the manifest.
+000006.515|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1.anm" because it's not in the manifest.
+000006.516|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack2.anm" because it's not in the manifest.
+000006.516|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2.anm" because it's not in the manifest.
+000006.516|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle2.anm" because it's not in the manifest.
+000006.517|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggro.anm" because it's not in the manifest.
+000006.517|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_death.anm" because it's not in the manifest.
+000006.518|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggrob.anm" because it's not in the manifest.
+000006.519|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3.anm" because it's not in the manifest.
+000006.519|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_a2n.anm" because it's not in the manifest.
+000006.519|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_n2a.anm" because it's not in the manifest.
+000006.520|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_channel.anm" because it's not in the manifest.
+000006.520|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_windup.anm" because it's not in the manifest.
+000006.520|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_channel.anm" because it's not in the manifest.
+000006.520|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_windup.anm" because it's not in the manifest.
+000006.521|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell5.anm" because it's not in the manifest.
+000006.521|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell5_channel.anm" because it's not in the manifest.
+000006.521|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell5_windup.anm" because it's not in the manifest.
+000006.521|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_melee.anm" because it's not in the manifest.
+000006.522|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_melee_far_left.anm" because it's not in the manifest.
+000006.522|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_melee_left.anm" because it's not in the manifest.
+000006.523|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_melee_right.anm" because it's not in the manifest.
+000006.523|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_melee_far_right.anm" because it's not in the manifest.
+000006.523|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1.anm" because it's not in the manifest.
+000006.524|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_far_left.anm" because it's not in the manifest.
+000006.524|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_far_right.anm" because it's not in the manifest.
+000006.524|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_right.anm" because it's not in the manifest.
+000006.525|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1_left.anm" because it's not in the manifest.
+000006.525|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell6_windup.anm" because it's not in the manifest.
+000006.525|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell6.anm" because it's not in the manifest.
+000006.526|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggroc.anm" because it's not in the manifest.
+000006.526|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggrod.anm" because it's not in the manifest.
+000006.526|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggroe.anm" because it's not in the manifest.
+000006.527|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggrof.anm" because it's not in the manifest.
+000006.527|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggrog.anm" because it's not in the manifest.
+000006.527|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_attack1b.anm" because it's not in the manifest.
+000006.528|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggroh.anm" because it's not in the manifest.
+000006.528|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_hidden.anm" because it's not in the manifest.
+000006.528|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggro_l45.anm" because it's not in the manifest.
+000006.528|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggro_r45.anm" because it's not in the manifest.
+000006.528|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_idle1_aggro_0.anm" because it's not in the manifest.
+000006.528|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_fl.anm" because it's not in the manifest.
+000006.529|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_fl_channel.anm" because it's not in the manifest.
+000006.529|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_fl_windup.anm" because it's not in the manifest.
+000006.529|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_fr.anm" because it's not in the manifest.
+000006.529|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_fr_channel.anm" because it's not in the manifest.
+000006.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_fr_windup.anm" because it's not in the manifest.
+000006.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_l.anm" because it's not in the manifest.
+000006.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_l_channel.anm" because it's not in the manifest.
+000006.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_l_windup.anm" because it's not in the manifest.
+000006.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_r.anm" because it's not in the manifest.
+000006.531|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_r_channel.anm" because it's not in the manifest.
+000006.531|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell2_r_windup.anm" because it's not in the manifest.
+000006.531|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_l.anm" because it's not in the manifest.
+000006.532|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_l_channel.anm" because it's not in the manifest.
+000006.532|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_l_windup.anm" because it's not in the manifest.
+000006.532|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_r.anm" because it's not in the manifest.
+000006.532|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_r_channel.anm" because it's not in the manifest.
+000006.533|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_r_windup.anm" because it's not in the manifest.
+000006.533|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spawnout.anm" because it's not in the manifest.
+000006.533|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_fl.anm" because it's not in the manifest.
+000006.533|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_fl_channel.anm" because it's not in the manifest.
+000006.533|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_fl_windup.anm" because it's not in the manifest.
+000006.534|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_fr.anm" because it's not in the manifest.
+000006.534|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_fr_channel.anm" because it's not in the manifest.
+000006.534|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baron/skins/base/animations/sru_baron_spell3_fr_windup.anm" because it's not in the manifest.
+000006.543|  ERROR| Cant load particle system SRU_Baron_BaronTail_Cast_sound.troy
+000006.543|  ERROR| Failed to preload particle system "SRU_Baron_BaronTail_Cast_sound.troy"
+000006.561|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.561|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.561|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.561|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.562|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.562|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.562|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.562|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.569|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.569|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.569|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.569|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.581|  ERROR| Cant load particle system s5_global_gold.troy
+000006.581|  ERROR| Failed to preload particle system "s5_global_gold.troy"
+000006.582|  ERROR| Cant load particle system s5_global_gold.troy
+000006.582|  ERROR| Failed to preload particle system "s5_global_gold.troy"
+000006.606|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_BaronSpawn/SRU_BaronSpawn.bin" because it's not in the manifest.
+000006.609|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.609|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.609|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.609|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.623|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.623|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.640|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baronspawn/skins/base/animations/sru_baronspawnl_hidden.anm" because it's not in the manifest.
+000006.640|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_baronspawn/skins/base/animations/sru_baronspawnl_spawn.anm" because it's not in the manifest.
+000006.657|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.657|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.663|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_magecrystal/skins/base/animations/sruap_magecrystal_idle1.anm" because it's not in the manifest.
+000006.663|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_magecrystal/skins/base/animations/sruap_magecrystal_spawn.anm" because it's not in the manifest.
+000006.667|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRUAP_Flag/SRUAP_Flag.bin" because it's not in the manifest.
+000006.670|  ERROR| Can not open file <TempChar_Square.dds> *********
+000006.670|  ERROR| Failed to load TempChar_Square.dds
+000006.670|   WARN| r3dTexture EX: TempChar_Square.dds - not found. Dummy texture created.
+000006.670|  ERROR| Can not open file <TempChar_Circle.dds> *********
+000006.670|  ERROR| Failed to load TempChar_Circle.dds
+000006.670|   WARN| r3dTexture EX: TempChar_Circle.dds - not found. Dummy texture created.
+000006.670|  ERROR| Can not open file <TemplateFighterPassive.dds> *********
+000006.670|  ERROR| Failed to load TemplateFighterPassive.dds
+000006.670|   WARN| r3dTexture EX: TemplateFighterPassive.dds - not found. Dummy texture created.
+000006.670|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.670|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.670|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.670|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.671|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_flag/skins/base/animations/sruap_flag_idle1.anm" because it's not in the manifest.
+000006.673|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Snail/SRU_Snail.bin" because it's not in the manifest.
+000006.676|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_snail/skins/base/animations/sru_snail_idle1.anm" because it's not in the manifest.
+000006.676|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_snail/skins/base/animations/sru_snail_run.anm" because it's not in the manifest.
+000006.676|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_snail/skins/base/animations/sru_snail_idle.anm" because it's not in the manifest.
+000006.676|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_snail/skins/base/animations/sru_snail_hide.anm" because it's not in the manifest.
+000006.676|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_snail/skins/base/animations/sru_snail_baserun.anm" because it's not in the manifest.
+000006.677|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_snail/skins/base/animations/sru_snail_destroy.anm" because it's not in the manifest.
+000006.679|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Dragon_prop/SRU_Dragon_prop.bin" because it's not in the manifest.
+000006.684|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon_prop/skins/base/animations/sru_dragon_prop_holding.anm" because it's not in the manifest.
+000006.684|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon_prop/skins/base/animations/sru_dragon_north_vista_fly.anm" because it's not in the manifest.
+000006.685|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_dragon_prop/skins/base/animations/sru_dragon_south_base_fly.anm" because it's not in the manifest.
+000006.687|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Bird/SRU_Bird.bin" because it's not in the manifest.
+000006.689|  ERROR| Can not open file <ChaosTurretWorm_Square.dds> *********
+000006.689|  ERROR| Failed to load ChaosTurretWorm_Square.dds
+000006.689|   WARN| r3dTexture EX: ChaosTurretWorm_Square.dds - not found. Dummy texture created.
+000006.689|  ERROR| Can not open file <ChaosTurretWorm_Circle.dds> *********
+000006.689|  ERROR| Failed to load ChaosTurretWorm_Circle.dds
+000006.689|   WARN| r3dTexture EX: ChaosTurretWorm_Circle.dds - not found. Dummy texture created.
+000006.689|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.689|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.689|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.689|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.690|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.690|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.691|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bird/skins/base/animations/sru_bird_spawn.anm" because it's not in the manifest.
+000006.691|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bird/skins/base/animations/sru_bird_idle_tree1.anm" because it's not in the manifest.
+000006.691|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bird/skins/base/animations/sru_bird_death.anm" because it's not in the manifest.
+000006.691|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bird/skins/base/animations/sru_bird_idle_tree2.anm" because it's not in the manifest.
+000006.692|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_bird/skins/base/animations/sru_bird_idle_destroy.anm" because it's not in the manifest.
+000006.693|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Antlermouse/SRU_Antlermouse.bin" because it's not in the manifest.
+000006.695|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.695|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.695|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.695|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.698|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_idle1.anm" because it's not in the manifest.
+000006.699|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_run_right.anm" because it's not in the manifest.
+000006.699|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_run_left.anm" because it's not in the manifest.
+000006.699|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_run.anm" because it's not in the manifest.
+000006.699|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_run_fwdright.anm" because it's not in the manifest.
+000006.700|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_idlewait.anm" because it's not in the manifest.
+000006.700|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_hiding.anm" because it's not in the manifest.
+000006.700|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_peeking.anm" because it's not in the manifest.
+000006.700|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_explore.anm" because it's not in the manifest.
+000006.701|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_peekinghold.anm" because it's not in the manifest.
+000006.701|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_idletopeek_trans.anm" because it's not in the manifest.
+000006.701|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_baserunhide.anm" because it's not in the manifest.
+000006.701|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_baserunhide2.anm" because it's not in the manifest.
+000006.701|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_midlanerun.anm" because it's not in the manifest.
+000006.702|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_destroy.anm" because it's not in the manifest.
+000006.702|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_antlermouse/skins/base/animations/sru_antlermouse_explore_hold.anm" because it's not in the manifest.
+000006.703|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Gromp_prop/SRU_Gromp_prop.bin" because it's not in the manifest.
+000006.706|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.706|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.706|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.706|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.708|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp_prop/skins/base/animations/sru_gromp_prop_run.anm" because it's not in the manifest.
+000006.708|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp_prop/skins/base/animations/sru_gromp_prop_idle1.anm" because it's not in the manifest.
+000006.708|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp_prop/skins/base/animations/sru_gromp_prop_idle2.anm" because it's not in the manifest.
+000006.708|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp_prop/skins/base/animations/sru_gromp_prop_explore.anm" because it's not in the manifest.
+000006.709|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp_prop/skins/base/animations/sru_gromp_prop_baserun.anm" because it's not in the manifest.
+000006.709|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_gromp_prop/skins/base/animations/sru_gromp_prop_destroy.anm" because it's not in the manifest.
+000006.710|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_Lizard/SRU_Lizard.bin" because it's not in the manifest.
+000006.712|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.712|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.712|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.712|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_idle2.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_idle1.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_run.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_run_hide.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_run_left.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_run_right.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_baserun.anm" because it's not in the manifest.
+000006.714|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_basehide.anm" because it's not in the manifest.
+000006.715|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_lizard/skins/base/animations/sru_lizard_destroy.anm" because it's not in the manifest.
+000006.716|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_StoreKeeperNorth/SRU_StoreKeeperNorth.bin" because it's not in the manifest.
+000006.729|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_idle3.anm" because it's not in the manifest.
+000006.729|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_idle2.anm" because it's not in the manifest.
+000006.730|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_spawn.anm" because it's not in the manifest.
+000006.730|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_idle4.anm" because it's not in the manifest.
+000006.730|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_idle5.anm" because it's not in the manifest.
+000006.731|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_idle6.anm" because it's not in the manifest.
+000006.731|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_idle1.anm" because it's not in the manifest.
+000006.731|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepernorth/skins/base/animations/sru_storekeepernorth_spawn2.anm" because it's not in the manifest.
+000006.735|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_StoreKeeperSouth/SRU_StoreKeeperSouth.bin" because it's not in the manifest.
+000006.758|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepersouth/skins/base/animations/sru_storekeeper_idle_normal1.anm" because it's not in the manifest.
+000006.759|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepersouth/skins/base/animations/sru_storekeeper_idle_spawn.anm" because it's not in the manifest.
+000006.760|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_storekeepersouth/skins/base/animations/sru_storekeeper_idle_spawn_hold.anm" because it's not in the manifest.
+000006.765|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Sru_Crab/Sru_Crab.bin" because it's not in the manifest.
+000006.771|  ERROR| Can not open file <Shen_ShadowDash.dds> *********
+000006.771|  ERROR| Failed to load Shen_ShadowDash.dds
+000006.771|   WARN| r3dTexture EX: Shen_ShadowDash.dds - not found. Dummy texture created.
+000006.772|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.772|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.772|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.772|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.772|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.772|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.777|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_run2.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_flee.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_stun.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_idle1.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_turn_left_45.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_turn_right_45.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_spawn.anm" because it's not in the manifest.
+000006.778|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_dash.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_dash_out.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_turn_right_180.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_turn_left_180.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_idle_torun.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_run_toflee.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_flee_torun.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_hide.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_flee2.anm" because it's not in the manifest.
+000006.779|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_dance.anm" because it's not in the manifest.
+000006.783|  ERROR| Cant load particle system global_lifesteal.troy
+000006.783|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000006.785|  ERROR| Cant load particle system global_lifesteal.troy
+000006.785|  ERROR| Failed to preload particle system "global_lifesteal.troy"
+000006.791|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/sru_crabward/sru_crabward.bin" because it's not in the manifest.
+000006.794|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.794|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.798|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_ward_idle.anm" because it's not in the manifest.
+000006.798|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_ward_run.anm" because it's not in the manifest.
+000006.798|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_ward_tohide.anm" because it's not in the manifest.
+000006.798|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_ward_spawn.anm" because it's not in the manifest.
+000006.798|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_ward_hide.anm" because it's not in the manifest.
+000006.798|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_ward_run_toground.anm" because it's not in the manifest.
+000006.799|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_crab/skins/base/animations/sru_crab_burrow.anm" because it's not in the manifest.
+000006.827|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRU_RiftHerald/SRU_RiftHerald.bin" because it's not in the manifest.
+000006.827|   WARN| In Skin: DATA/Characters/SRU_RiftHerald/SRU_RiftHerald.ini, Could not find Particle1
+000006.828|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.828|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.828|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.828|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.829|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.829|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.837|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_riftherald/skins/base/animations/sru_blue_attack1.anm" because it's not in the manifest.
+000006.838|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_riftherald/skins/base/animations/sru_blue_attack2.anm" because it's not in the manifest.
+000006.838|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_riftherald/skins/base/animations/sru_blue_spawn.anm" because it's not in the manifest.
+000006.838|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_riftherald/skins/base/animations/sru_blue_attack3.anm" because it's not in the manifest.
+000006.838|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_riftherald/skins/base/animations/sru_blue_run.anm" because it's not in the manifest.
+000006.838|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sru_riftherald/skins/base/animations/sru_blue_death.anm" because it's not in the manifest.
+000006.864|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/sru_riftherald_relic/sru_riftherald_relic.bin" because it's not in the manifest.
+000006.879|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/SRU_RiftHerald_Relic/animations/idle1.anm" because it's not in the manifest.
+000006.882|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <SRU_RiftHerald_Relic_Beacon_Center_Mult.dds>
+
+000006.887|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.887|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.887|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.887|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.888|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.888|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.888|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.888|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.891|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.891|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.891|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000006.891|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000006.925|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRUAP_OrderInhibitor_Rubble/SRUAP_OrderInhibitor_Rubble.bin" because it's not in the manifest.
+000006.933|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_orderinhibitor_rubble/skins/base/animations/sruap_orderinhibitor_rubble_idle1.anm" because it's not in the manifest.
+000006.936|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRUAP_Turret_Chaos1_Rubble/SRUAP_Turret_Chaos1_Rubble.bin" because it's not in the manifest.
+000006.940|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.940|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.940|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.940|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.945|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_chaos1_rubble/skins/base/animations/sruap_chaosturret1_rubble_idle1.anm" because it's not in the manifest.
+000006.949|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRUAP_ChaosInhibitor_Rubble/SRUAP_ChaosInhibitor_Rubble.bin" because it's not in the manifest.
+000006.962|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosinhibitor_rubble/skins/base/animations/sruap_chaosinhibitor_rubble_idle1.anm" because it's not in the manifest.
+000006.966|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/SRUAP_Turret_Order1_Rubble/SRUAP_Turret_Order1_Rubble.bin" because it's not in the manifest.
+000006.969|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.969|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.969|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.969|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.970|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_order1_rubble/skins/base/animations/sruap_turret_order1_rubble_idle1.anm" because it's not in the manifest.
+000006.981|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Sruap_Ordernexus_Rubble/Sruap_Ordernexus_Rubble.bin" because it's not in the manifest.
+000006.983|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000006.983|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000006.983|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000006.983|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000006.989|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_ordernexus_rubble/skins/base/animations/sruap_ordernexus_rubble_idle1.anm" because it's not in the manifest.
+000006.994|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/DestroyedTower/DestroyedTower.bin" because it's not in the manifest.
+000006.999|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/destroyedtower/animations/destroyedtower_idle.anm" because it's not in the manifest.
+000007.006|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/TestCube/TestCube.bin" because it's not in the manifest.
+000007.021|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/testcube/animations/idle1.anm" because it's not in the manifest.
+000007.024|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/Sruap_Chaosnexus_Rubble/Sruap_Chaosnexus_Rubble.bin" because it's not in the manifest.
+000007.026|  ERROR| Failed to load spell ini or script: "TemplateFighterQ"
+000007.026|  ERROR| Failed to load spell ini or script: "TemplateFighterW"
+000007.026|  ERROR| Failed to load spell ini or script: "TemplateFighterE"
+000007.027|  ERROR| Failed to load spell ini or script: "TemplateFighterR"
+000007.031|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_chaosnexus_rubble/skins/base/animations/sruap_chaosnexus_rubble_idle1.anm" because it's not in the manifest.
+000007.212|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Loadouts/FinisherParticles.bin" because it's not in the manifest.
+000007.276| ALWAYS| Begin Game Object Update
+000007.281|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_c/brush_sru_c.bin" because it's not in the manifest.
+000007.285|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/Brush_SRU_A/skins/base/animations/wall_of_grass_back.anm" because it's not in the manifest.
+000007.285|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/Brush_SRU_A/skins/base/animations/wall_of_grass_front.anm" because it's not in the manifest.
+000007.285|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/Brush_SRU_A/skins/base/animations/wall_of_grass_idle1.anm" because it's not in the manifest.
+000007.285|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/Brush_SRU_A/skins/base/animations/wall_of_grass_left.anm" because it's not in the manifest.
+000007.285|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/Brush_SRU_A/skins/base/animations/wall_of_grass_right.anm" because it's not in the manifest.
+000007.286|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_e/brush_sru_e.bin" because it's not in the manifest.
+000007.298|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_f/brush_sru_f.bin" because it's not in the manifest.
+000007.301|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_g/brush_sru_g.bin" because it's not in the manifest.
+000007.306|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_b/brush_sru_b.bin" because it's not in the manifest.
+000007.310|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_d/brush_sru_d.bin" because it's not in the manifest.
+000007.396|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_h/brush_sru_h.bin" because it's not in the manifest.
+000007.402|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/brush_sru_i/brush_sru_i.bin" because it's not in the manifest.
+000007.410|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ChaosBarracks_Wizard/ChaosBarracks_Wizard.bin" because it's not in the manifest.
+000007.417|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/OrderBarracks_Wizard/OrderBarracks_Wizard.bin" because it's not in the manifest.
+000007.436| ALWAYS| End Game Object Update
+000007.514|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.514|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_order5/skins/base/animations/sruap_orderturret5_idle1.anm" because it's not in the manifest.
+000007.530|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sruap_turret_order5/skins/base/animations/sruap_orderturret5_spawn60.anm" because it's not in the manifest.
+000007.531|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_shield_drop_sound.troy
+000007.531|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_shield_drop_sound.troy"
+000007.531|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_shield_lock_sound.troy
+000007.531|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_shield_lock_sound.troy"
+000007.531|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_stafflock_helmetlock_sound.troy
+000007.531|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_stafflock_helmetlock_sound.troy"
+000007.531|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_shield_dropgears_sound.troy
+000007.531|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_shield_dropgears_sound.troy"
+000007.531|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_aura_magic_sound.troy
+000007.531|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_aura_magic_sound.troy"
+000007.531|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_staff_sound.troy
+000007.531|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_staff_sound.troy"
+000007.569|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Items/Items.bin" because it's not in the manifest.
+000007.592|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.592|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.593|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.593|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.595|  ERROR| Cant load particle system PowerBall_tar.troy
+000007.595|  ERROR| Failed to preload particle system "PowerBall_tar.troy"
+000007.595|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.595|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.602|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.602|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.602|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.602|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.617|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.617|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.617|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.617|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.619|  ERROR| Can not open file <3718_Icon_of_the_Oaken_Heart.dds> *********
+000007.619|  ERROR| Failed to load 3718_Icon_of_the_Oaken_Heart.dds
+000007.619|   WARN| r3dTexture EX: 3718_Icon_of_the_Oaken_Heart.dds - not found. Dummy texture created.
+000007.626|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.626|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.626|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.626|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.626|  ERROR| Can not open file <FallenAngel_BlackShield.dds> *********
+000007.626|  ERROR| Failed to load FallenAngel_BlackShield.dds
+000007.626|   WARN| r3dTexture EX: FallenAngel_BlackShield.dds - not found. Dummy texture created.
+000007.627|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.627|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.633|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.633|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.633|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.633|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.633|  ERROR| Can not open file <055_Borses_Staff_of_Apocalypse.tga> *********
+000007.633|  ERROR| Failed to load 055_Borses_Staff_of_Apocalypse.tga
+000007.633|   WARN| r3dTexture EX: 055_Borses_Staff_of_Apocalypse.tga - not found. Dummy texture created.
+000007.648|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.648|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.648|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.648|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.649|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/sightward/sightward.bin" because it's not in the manifest.
+000007.653|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sightward/skins/base/animations/sightward_base_idle.anm" because it's not in the manifest.
+000007.653|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sightward/skins/base/animations/sightward_base_idle_death.anm" because it's not in the manifest.
+000007.653|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/sightward/skins/base/animations/sightward_base_idlein.anm" because it's not in the manifest.
+000007.657|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/s5test_wardcorpse/s5test_wardcorpse.bin" because it's not in the manifest.
+000007.659|  ERROR| Can not open file <Thresh_Square.dds> *********
+000007.659|  ERROR| Failed to load Thresh_Square.dds
+000007.660|   WARN| r3dTexture EX: Thresh_Square.dds - not found. Dummy texture created.
+000007.660|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/s5test_wardcorpse/skins/base/animations/ward_corpse_idle.anm" because it's not in the manifest.
+000007.683|  ERROR| Can not open file <Summoner_fortify.dds> *********
+000007.683|  ERROR| Failed to load Summoner_fortify.dds
+000007.683|   WARN| r3dTexture EX: Summoner_fortify.dds - not found. Dummy texture created.
+000007.683|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.683|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.683|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.683|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.690|  ERROR| Cant load particle system TrailMagic1.troy
+000007.690|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.695|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.695|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.695|  ERROR| Cant load particle system TrailMagic1.troy
+000007.695|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.721|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.721|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.721|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.721|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.722|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.722|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.722|  ERROR| Cant load particle system TrailMagic1.troy
+000007.722|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.722|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.722|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.722|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.722|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.725|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.725|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.725|  ERROR| Cant load particle system TrailMagic1.troy
+000007.725|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.733|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.733|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.741|  ERROR| Cant load particle system FerosciousHowl_cas3.troy
+000007.741|  ERROR| Failed to preload particle system "FerosciousHowl_cas3.troy"
+000007.741|  ERROR| Cant load particle system Capture_cas.troy
+000007.741|  ERROR| Failed to preload particle system "Capture_cas.troy"
+000007.743|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.743|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.743|  ERROR| Cant load particle system TrailMagic1.troy
+000007.743|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.744|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.744|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.744|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.744|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.744|  ERROR| Cant load particle system TrailMagic1.troy
+000007.744|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.745|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/item_twinshadow/item_twinshadow.bin" because it's not in the manifest.
+000007.748|  ERROR| Can not open file <wraith_Square.dds> *********
+000007.748|  ERROR| Failed to load wraith_Square.dds
+000007.748|   WARN| r3dTexture EX: wraith_Square.dds - not found. Dummy texture created.
+000007.748|  ERROR| Can not open file <wraith_Circle.dds> *********
+000007.748|  ERROR| Failed to load wraith_Circle.dds
+000007.748|   WARN| r3dTexture EX: wraith_Circle.dds - not found. Dummy texture created.
+000007.749|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/item_twinshadow/skins/base/animations/twinshadow_idle.anm" because it's not in the manifest.
+000007.749|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/item_twinshadow/skins/base/animations/twinshadow_death.anm" because it's not in the manifest.
+000007.749|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/item_twinshadow/skins/base/animations/twinshadow_run.anm" because it's not in the manifest.
+000007.749|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/item_twinshadow/skins/base/animations/twinshadow_angryidle.anm" because it's not in the manifest.
+000007.750|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <color-wraith_flicker.tga>
+
+000007.751|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <color-wraith_flicker.tga>
+
+000007.753|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <wraith_twirl.tga>
+
+000007.753|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <wraith_hit.sco>.
+
+000007.754|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000007.754|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000007.754|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.754|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.755|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/visionward/visionward.bin" because it's not in the manifest.
+000007.760|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.760|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.760|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.760|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.764|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.764|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.764|  ERROR| Cant load particle system TrailMagic1.troy
+000007.764|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.764|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.764|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.764|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.764|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.765|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.765|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.768|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/yellowtrinketupgrade/yellowtrinketupgrade.bin" because it's not in the manifest.
+000007.782|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinketupgrade/skins/base/animations/tempchar_idle1.anm" because it's not in the manifest.
+000007.782|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinketupgrade/skins/base/animations/greateryellow_trinket_intro.anm" because it's not in the manifest.
+000007.783|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinketupgrade/skins/base/animations/greateryellow_trinket_idle.anm" because it's not in the manifest.
+000007.793|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinketupgrade/skins/base/animations/greateryellow_trinket_death.anm" because it's not in the manifest.
+000007.800|  ERROR| Can not open file <3154_WriggleLantern.dds> *********
+000007.800|  ERROR| Failed to load 3154_WriggleLantern.dds
+000007.800|   WARN| r3dTexture EX: 3154_WriggleLantern.dds - not found. Dummy texture created.
+000007.800|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.800|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.800|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000007.800|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000007.801|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.801|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.801|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.802|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.808|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/ha_ap_poro/ha_ap_poro.bin" because it's not in the manifest.
+000007.813|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_idle1.anm" because it's not in the manifest.
+000007.813|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_run.anm" because it's not in the manifest.
+000007.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_run2.anm" because it's not in the manifest.
+000007.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_idle2.anm" because it's not in the manifest.
+000007.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_idle3.anm" because it's not in the manifest.
+000007.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_death.anm" because it's not in the manifest.
+000007.814|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_idle4.anm" because it's not in the manifest.
+000007.815|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_jump.anm" because it's not in the manifest.
+000007.815|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/ha_ap_poro/skins/base/animations/poro_buffbones.anm" because it's not in the manifest.
+000007.818|  ERROR| Can not open file <Minotaur_TriumphantRoar.dds> *********
+000007.818|  ERROR| Failed to load Minotaur_TriumphantRoar.dds
+000007.818|   WARN| r3dTexture EX: Minotaur_TriumphantRoar.dds - not found. Dummy texture created.
+000007.820|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.820|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.820|  ERROR| Cant load particle system TrailMagic1.troy
+000007.820|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000007.820|  ERROR| Can not open file <2051_Guardians_Horn_Counter.dds> *********
+000007.820|  ERROR| Failed to load 2051_Guardians_Horn_Counter.dds
+000007.820|   WARN| r3dTexture EX: 2051_Guardians_Horn_Counter.dds - not found. Dummy texture created.
+000007.820|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.820|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.821|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.821|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.821|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.821|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.821|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.821|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.854|  ERROR| Cant load particle system Boots_HomeguardHeal.troy
+000007.854|  ERROR| Failed to preload particle system "Boots_HomeguardHeal.troy"
+000007.870|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.870|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.902|  ERROR| Failed to load spell ini or script: "ItemAbyssal"
+000007.911|  ERROR| Can not open file <3734_The_Black_Cleaver.dds> *********
+000007.911|  ERROR| Failed to load 3734_The_Black_Cleaver.dds
+000007.911|   WARN| r3dTexture EX: 3734_The_Black_Cleaver.dds - not found. Dummy texture created.
+000007.924|  ERROR| Cant load particle system item_btoverheal_decay.troy
+000007.924|  ERROR| Failed to preload particle system "item_btoverheal_decay.troy"
+000007.924|  ERROR| Can not open file <2222_Transmutation_Crystal.dds> *********
+000007.924|  ERROR| Failed to load 2222_Transmutation_Crystal.dds
+000007.924|   WARN| r3dTexture EX: 2222_Transmutation_Crystal.dds - not found. Dummy texture created.
+000007.924|  ERROR| Cant load particle system item_btoverheal_decay.troy
+000007.924|  ERROR| Failed to preload particle system "item_btoverheal_decay.troy"
+000007.932|  ERROR| Cant load particle system Starcall_tar.troy
+000007.932|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000007.932|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.932|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.940|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000007.940|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000007.940|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000007.940|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000007.963|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Item_PrimalTalon_explosion_sphere.scb>.
+
+000007.969|  ERROR| Can not open file <1040_Spellblade.dds> *********
+000007.969|  ERROR| Failed to load 1040_Spellblade.dds
+000007.969|   WARN| r3dTexture EX: 1040_Spellblade.dds - not found. Dummy texture created.
+000008.017|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.017|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.037|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000008.037|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000008.037|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.037|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.038|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000008.038|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000008.038|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.038|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.056|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.056|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.082|  ERROR| Cant load particle system global_armor_pos_buf.troy
+000008.082|  ERROR| Failed to preload particle system "global_armor_pos_buf.troy"
+000008.082|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.082|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.087|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000008.087|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000008.087|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.087|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.098|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.098|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.098|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.098|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.098|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.098|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.098|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.098|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.121|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.121|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.123|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.123|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.123|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.123|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.141|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.141|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.141|  ERROR| Cant load particle system TrailMagic1.troy
+000008.141|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000008.141|  ERROR| Can not open file <3085.dds> *********
+000008.141|  ERROR| Failed to load 3085.dds
+000008.141|   WARN| r3dTexture EX: 3085.dds - not found. Dummy texture created.
+000008.141|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.141|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.141|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.141|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.142|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.142|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.142|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.142|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.146|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/yellowtrinket/yellowtrinket.bin" because it's not in the manifest.
+000008.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinket/skins/base/animations/tempchar_idle1.anm" because it's not in the manifest.
+000008.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinket/skins/base/animations/yellowtrinket_in.anm" because it's not in the manifest.
+000008.152|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinket/skins/base/animations/yellowtrinket_idle.anm" because it's not in the manifest.
+000008.154|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/yellowtrinket/skins/base/animations/yellowtrinket_death.anm" because it's not in the manifest.
+000008.155|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.155|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.155|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.155|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.169|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000008.169|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000008.169|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.169|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.171|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.171|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.173|  ERROR| Cant load particle system gangplank_base_q_gold.troy
+000008.173|  ERROR| Failed to preload particle system "gangplank_base_q_gold.troy"
+000008.173|  ERROR| Cant load particle system gangplank_base_q_token.troy
+000008.173|  ERROR| Failed to preload particle system "gangplank_base_q_token.troy"
+000008.173|  ERROR| Cant load particle system gangplank_base_q_gold.troy
+000008.173|  ERROR| Failed to preload particle system "gangplank_base_q_gold.troy"
+000008.173|  ERROR| Cant load particle system gangplank_base_q_token.troy
+000008.173|  ERROR| Failed to preload particle system "gangplank_base_q_token.troy"
+000008.179|  ERROR| Can not open file <3748_Eternity_Scepter.dds> *********
+000008.179|  ERROR| Failed to load 3748_Eternity_Scepter.dds
+000008.179|   WARN| r3dTexture EX: 3748_Eternity_Scepter.dds - not found. Dummy texture created.
+000008.180|  ERROR| Cant load particle system gangplank_passive_token.troy
+000008.180|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000008.180|  ERROR| Can not open file <GangplankCannonBarrageUpgrade1.dds> *********
+000008.180|  ERROR| Failed to load GangplankCannonBarrageUpgrade1.dds
+000008.180|   WARN| r3dTexture EX: GangplankCannonBarrageUpgrade1.dds - not found. Dummy texture created.
+000008.180|  ERROR| Cant load particle system gangplank_passive_token.troy
+000008.180|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000008.180|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.180|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.180|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.180|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.182|  ERROR| Cant load particle system gangplank_passive_token.troy
+000008.182|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000008.182|  ERROR| Can not open file <GangplankCannonBarrageUpgrade2.dds> *********
+000008.182|  ERROR| Failed to load GangplankCannonBarrageUpgrade2.dds
+000008.182|   WARN| r3dTexture EX: GangplankCannonBarrageUpgrade2.dds - not found. Dummy texture created.
+000008.182|  ERROR| Cant load particle system gangplank_passive_token.troy
+000008.182|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000008.182|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.182|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.182|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.182|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.183|  ERROR| Cant load particle system gangplank_passive_token.troy
+000008.183|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000008.183|  ERROR| Can not open file <GangplankCannonBarrageUpgrade3.dds> *********
+000008.183|  ERROR| Failed to load GangplankCannonBarrageUpgrade3.dds
+000008.183|   WARN| r3dTexture EX: GangplankCannonBarrageUpgrade3.dds - not found. Dummy texture created.
+000008.183|  ERROR| Cant load particle system gangplank_passive_token.troy
+000008.183|  ERROR| Failed to preload particle system "gangplank_passive_token.troy"
+000008.183|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.183|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.183|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.183|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.190|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.190|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.195|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.195|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.195|  ERROR| Cant load particle system teleport.prt
+000008.195|  ERROR| Failed to preload particle system "teleport.prt"
+000008.203|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <ItemDevourer_Aatrox_impact_RGB.tga>
+
+000008.204|  ERROR| Failed to load spell ini or script: "lulue"
+000008.206|  ERROR| Failed to load spell ini or script: "lulue"
+000008.224|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.224|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.231|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.231|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.234|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberender10vision/testcuberender10vision.bin" because it's not in the manifest.
+000008.248|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/testcuberender10vision/animations/idle1.anm" because it's not in the manifest.
+000008.269|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.269|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.269|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.269|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.277|  ERROR| Cant load particle system InnervatingLocket_cas.troy
+000008.277|  ERROR| Failed to preload particle system "InnervatingLocket_cas.troy"
+000008.277|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.277|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.277|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.277|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.277|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.277|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.286|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.286|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.292|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.292|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.292|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.292|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.299|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/voidgate/voidgate.bin" because it's not in the manifest.
+000008.303|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidgate/skins/base/animations/voidgate_idle1.anm" because it's not in the manifest.
+000008.303|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidgate/skins/base/animations/voidgate_spawn.anm" because it's not in the manifest.
+000008.303|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidgate/skins/base/animations/voidgate_spit.anm" because it's not in the manifest.
+000008.303|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidgate/skins/base/animations/voidgate_death.anm" because it's not in the manifest.
+000008.312|  ERROR| Cant load particle system VoidGate_idle_loop_sound.troy
+000008.312|  ERROR| Failed to preload particle system "VoidGate_idle_loop_sound.troy"
+000008.313|  ERROR| Cant load particle system VoidGate_death_sound.troy
+000008.313|  ERROR| Failed to preload particle system "VoidGate_death_sound.troy"
+000008.316|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/voidspawn/voidspawn.bin" because it's not in the manifest.
+000008.317|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.317|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.317|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.317|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.321|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.321|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.323|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_attack1.anm" because it's not in the manifest.
+000008.323|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_attack2.anm" because it's not in the manifest.
+000008.323|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_idle1.anm" because it's not in the manifest.
+000008.323|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_run.anm" because it's not in the manifest.
+000008.323|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_spawn.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_turretattack1.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_death.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_spawn_hold.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_hide.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_turn_left_120.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_turn_left_45.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_turn_right_120.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_turn_right_45.anm" because it's not in the manifest.
+000008.324|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_spawn2.anm" because it's not in the manifest.
+000008.325|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/voidspawn/skins/base/animations/voidspawn_idle_torun.anm" because it's not in the manifest.
+000008.342|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/voidspawntracer/voidspawntracer.bin" because it's not in the manifest.
+000008.351|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.351|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.351|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.351|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.351|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.351|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.353|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.353|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.353|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.353|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.356|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.356|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.356|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.356|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.356|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.356|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.356|  ERROR| Cant load particle system TrailMagic1.troy
+000008.356|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000008.363|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.363|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.363|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.363|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.364|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.364|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.364|  ERROR| Cant load particle system TrailMagic1.troy
+000008.364|  ERROR| Failed to preload particle system "TrailMagic1.troy"
+000008.364|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.364|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.364|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.364|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.372|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.372|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.372|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.372|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.392|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/bluetrinket/bluetrinket.bin" because it's not in the manifest.
+000008.402|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000008.403|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000008.403|  ERROR| Cant load particle system Starcall_tar.troy
+000008.403|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000008.403|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.403|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.413|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000008.413|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000008.413|  ERROR| Cant load particle system Starcall_tar.troy
+000008.413|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000008.413|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.413|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.414|  ERROR| Cant load particle system GuinsoosRodofOblivion_buf.troy
+000008.414|  ERROR| Failed to preload particle system "GuinsoosRodofOblivion_buf.troy"
+000008.414|  ERROR| Cant load particle system Starcall_tar.troy
+000008.414|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000008.414|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.414|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.442|  ERROR| Cant load particle system global_armor_pos_buf.troy
+000008.442|  ERROR| Failed to preload particle system "global_armor_pos_buf.troy"
+000008.443|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.443|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.453|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.453|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeproc"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikeprotect"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkself"
+000008.473|  ERROR| Failed to load spell ini or script: "kalistacoopstrikemarkally"
+000008.500|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar_unit.troy
+000008.500|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar_unit.troy"
+000008.500|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar.troy
+000008.500|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar.troy"
+000008.500|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar_unit.troy
+000008.500|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar_unit.troy"
+000008.500|  ERROR| Cant load particle system jinx_base_q_rocket_hurricane_tar.troy
+000008.500|  ERROR| Failed to preload particle system "jinx_base_q_rocket_hurricane_tar.troy"
+000008.500|  ERROR| Cant load particle system Jinx_Base_Q_Rocket_Hurricane_mis.troy
+000008.500|  ERROR| Failed to preload particle system "Jinx_Base_Q_Rocket_Hurricane_mis.troy"
+000008.500|  ERROR| Cant load particle system Ashe_Base_Q_tar.troy
+000008.500|  ERROR| Failed to preload particle system "Ashe_Base_Q_tar.troy"
+000008.500|  ERROR| Cant load particle system Ashe_Base_Q_Hurricane_mis.troy
+000008.500|  ERROR| Failed to preload particle system "Ashe_Base_Q_Hurricane_mis.troy"
+000008.507|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.507|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.511|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.511|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.511|  ERROR| Cant load particle system TristannaBasicAttack4_mis.troy
+000008.511|  ERROR| Failed to preload particle system "TristannaBasicAttack4_mis.troy"
+000008.527|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.527|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.538|  ERROR| Cant load particle system DeathsCaress_shafts.troy
+000008.538|  ERROR| Failed to preload particle system "DeathsCaress_shafts.troy"
+000008.541|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.541|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.561|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.561|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.561|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.561|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.565|  ERROR| Cant load particle system nidalee_cougar_TakeDown_cas.troy
+000008.565|  ERROR| Failed to preload particle system "nidalee_cougar_TakeDown_cas.troy"
+000008.565|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.565|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.566|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.566|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.567|  ERROR| Can not open file <3712_Kindled_Spirit.dds> *********
+000008.567|  ERROR| Failed to load 3712_Kindled_Spirit.dds
+000008.567|   WARN| r3dTexture EX: 3712_Kindled_Spirit.dds - not found. Dummy texture created.
+000008.568|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Soraka_heal_color.tga>
+
+000008.578|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000008.578|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000008.610|  ERROR| Can not open file <3400_Karache.dds> *********
+000008.610|  ERROR| Failed to load 3400_Karache.dds
+000008.610|   WARN| r3dTexture EX: 3400_Karache.dds - not found. Dummy texture created.
+000008.641|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_BaseData_Scenes.bin" because it's not in the manifest.
+000008.641|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "UX/RenderUI/Default_RenderUI.bin" because it's not in the manifest.
+000008.770|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Menu_SC4/-nolink.dds" because it's not in the manifest.
+000008.770|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/-nolink.dds
+000008.770|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Menu_SC4/TurretTipImage.png-nolink.dds" because it's not in the manifest.
+000008.770|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/TurretTipImage.png-nolink.dds
+000008.770|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Menu_SC4/recapSplash.png-nolink.dds" because it's not in the manifest.
+000008.770|  ERROR| Missing file on r3dGFile open :DATA/Menu_SC4/recapSplash.png-nolink.dds
+000009.652|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Global/Perks/perks.bin" because it's not in the manifest.
+000009.687| ALWAYS| PreloadGlobalEffects
+000009.779| ALWAYS| PreloadGlobalEffects Finished
+000009.782|  ERROR| Cant load particle system galio_base_r_taunt_tar.troy
+000009.782|  ERROR| Failed to preload particle system "galio_base_r_taunt_tar.troy"
+000009.787|  ERROR| Can not open file <48thSlave_Pacify.dds> *********
+000009.787|  ERROR| Failed to load 48thSlave_Pacify.dds
+000009.787|   WARN| r3dTexture EX: 48thSlave_Pacify.dds - not found. Dummy texture created.
+000009.787|  ERROR| Cant load particle system Charm_tar.troy
+000009.787|  ERROR| Failed to preload particle system "Charm_tar.troy"
+000009.787|  ERROR| Cant load particle system Charm_tar.troy
+000009.787|  ERROR| Failed to preload particle system "Charm_tar.troy"
+000009.791|  ERROR| Can not open file <Fiddlesticks_Terrify.dds> *********
+000009.791|  ERROR| Failed to load Fiddlesticks_Terrify.dds
+000009.791|   WARN| r3dTexture EX: Fiddlesticks_Terrify.dds - not found. Dummy texture created.
+000009.792|  ERROR| Can not open file <Teemo_TranquilizingShot.dds> *********
+000009.792|  ERROR| Failed to load Teemo_TranquilizingShot.dds
+000009.792|   WARN| r3dTexture EX: Teemo_TranquilizingShot.dds - not found. Dummy texture created.
+000009.792|  ERROR| Cant load particle system Sleep2_Glb.troy
+000009.792|  ERROR| Failed to preload particle system "Sleep2_Glb.troy"
+000009.792|  ERROR| Cant load particle system Sleep2_Glb.troy
+000009.792|  ERROR| Failed to preload particle system "Sleep2_Glb.troy"
+000009.978|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <SRU_pallybase_platform_godRaysMult.dds>
+
+000010.040|  ERROR| Cant load particle system sru_baron_rune05.troy
+000010.040|  ERROR| Failed to preload particle system "sru_baron_rune05.troy"
+000010.047|  ERROR| CharacterData::Load: Failed to locate Character INI Thresh.ini
+000010.057|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.tga>
+
+000010.059|  ERROR| Cant load particle system Thresh_Skin03_Idle_Arm_01.troy
+000010.059|  ERROR| Failed to preload particle system "Thresh_Skin03_Idle_Arm_01.troy"
+000010.059|  ERROR| Cant load particle system Thresh_Skin03_Idle_Neck_01.troy
+000010.059|  ERROR| Failed to preload particle system "Thresh_Skin03_Idle_Neck_01.troy"
+000010.060|  ERROR| Cant load particle system Temp_ThreshQMisTar.troy
+000010.060|  ERROR| Failed to preload particle system "Temp_ThreshQMisTar.troy"
+000010.061|  ERROR| Cant load particle system Temp_ThreshQMisTar.troy
+000010.061|  ERROR| Failed to preload particle system "Temp_ThreshQMisTar.troy"
+000010.063|  ERROR| Cant load particle system Temp_ThreshQMisTar.troy
+000010.063|  ERROR| Failed to preload particle system "Temp_ThreshQMisTar.troy"
+000010.069|  ERROR| Can not open file <SadMummy_BandageFlinger.dds> *********
+000010.069|  ERROR| Failed to load SadMummy_BandageFlinger.dds
+000010.069|   WARN| r3dTexture EX: SadMummy_BandageFlinger.dds - not found. Dummy texture created.
+000010.071|  ERROR| Cant load particle system thresh_lantern_cas_ground.troy
+000010.071|  ERROR| Failed to preload particle system "thresh_lantern_cas_ground.troy"
+000010.071|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberenderwcollision/testcuberenderwcollision.bin" because it's not in the manifest.
+000010.087|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberenderwcollision/testcuberenderwcollision.bin" because it's not in the manifest.
+000010.087|  ERROR| Cant load particle system thresh_lantern_cas_ground.troy
+000010.088|  ERROR| Failed to preload particle system "thresh_lantern_cas_ground.troy"
+000010.098|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_spine_TX.dds>
+
+000010.098|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_BonePost.sco>.
+
+000010.098|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble_02.dds>
+
+000010.098|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_droplets.dds>
+
+000010.106|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_spine_TX.dds>
+
+000010.106|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_BonePost.sco>.
+
+000010.106|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble_02.dds>
+
+000010.106|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_droplets.dds>
+
+000010.118|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_Caustics_03.dds>
+
+000010.121|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000010.121|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000010.128|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_TX.dds>
+
+000010.128|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_Hook.sco>.
+
+000010.128|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_TX.dds>
+
+000010.128|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_Whip.sco>.
+
+000010.135|  ERROR| Cant load particle system thresh_q_stab_tar.troy
+000010.135|  ERROR| Failed to preload particle system "thresh_q_stab_tar.troy"
+000010.136|  ERROR| Can not open file <Ryze_PowerOverwhelming.dds> *********
+000010.136|  ERROR| Failed to load Ryze_PowerOverwhelming.dds
+000010.136|   WARN| r3dTexture EX: Ryze_PowerOverwhelming.dds - not found. Dummy texture created.
+000010.138|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000010.138|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000010.138|  ERROR| Can not open file <Ahri_Charm.dds> *********
+000010.138|  ERROR| Failed to load Ahri_Charm.dds
+000010.138|   WARN| r3dTexture EX: Ahri_Charm.dds - not found. Dummy texture created.
+000010.140|  ERROR| Cant load particle system thresh_q_stab_tar.troy
+000010.140|  ERROR| Failed to preload particle system "thresh_q_stab_tar.troy"
+000010.148|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_TX.tga>
+
+000010.148|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_Whip.sco>.
+
+000010.148|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_TX.tga>
+
+000010.148|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_hook.sco>.
+
+000010.151|  ERROR| Can not open file <Janna_EyeOfTheStorm.dds> *********
+000010.151|  ERROR| Failed to load Janna_EyeOfTheStorm.dds
+000010.151|   WARN| r3dTexture EX: Janna_EyeOfTheStorm.dds - not found. Dummy texture created.
+000010.155|  ERROR| CharacterData::Load: Failed to locate Character INI threshlantern.ini
+000010.167|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/threshlantern/skins/base/animations/threshlantern_idle1.anm" because it's not in the manifest.
+000010.167|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/threshlantern/skins/base/animations/threshlantern_death.anm" because it's not in the manifest.
+000010.173|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_Lantern_Shine.dds>
+
+000010.173|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_subglow.dds>
+
+000010.173|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_caustics.dds>
+
+000010.174|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.dds>
+
+000010.174|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.dds>
+
+000010.180|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_caustics.tga>
+
+000010.180|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.tga>
+
+000010.180|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.tga>
+
+000010.187|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000010.187|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000010.187|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000010.187|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000010.194|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skn1_TX.dds>
+
+000010.194|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_Lantern.sco>.
+
+000010.194|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.dds>
+
+000010.209|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.dds>
+
+000010.209|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <thresh_skn1_bubble.dds>
+
+000010.209|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin01_E_WavePulse_tex.dds>
+
+000010.209|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_Skin01_E_wavePulse_geo.sco>.
+
+000010.209|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find mesh file <Thresh_skn1_slowWaves_geo.sco>.
+
+000010.259|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_channel_windup.anm" because it's not in the manifest.
+000010.259|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_death.anm" because it's not in the manifest.
+000010.260|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_idle1.anm" because it's not in the manifest.
+000010.260|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_run_haste.anm" because it's not in the manifest.
+000010.261|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell2.anm" because it's not in the manifest.
+000010.261|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_mid.anm" because it's not in the manifest.
+000010.261|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_short.anm" because it's not in the manifest.
+000010.262|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_channel.anm" because it's not in the manifest.
+000010.262|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_crit.anm" because it's not in the manifest.
+000010.262|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_dance.anm" because it's not in the manifest.
+000010.264|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_idle2.anm" because it's not in the manifest.
+000010.264|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_idle3.anm" because it's not in the manifest.
+000010.265|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_joke.anm" because it's not in the manifest.
+000010.265|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_laugh.anm" because it's not in the manifest.
+000010.266|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell4.anm" because it's not in the manifest.
+000010.266|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_taunt.anm" because it's not in the manifest.
+000010.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_idle_in1.anm" because it's not in the manifest.
+000010.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_idle_in2.anm" because it's not in the manifest.
+000010.267|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_idle4.anm" because it's not in the manifest.
+000010.268|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_respawn.anm" because it's not in the manifest.
+000010.268|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_long.anm" because it's not in the manifest.
+000010.268|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell3.anm" because it's not in the manifest.
+000010.269|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell1_pull1.anm" because it's not in the manifest.
+000010.269|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell1_in.anm" because it's not in the manifest.
+000010.270|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell1_grab.anm" because it's not in the manifest.
+000010.270|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell1_pull2.anm" because it's not in the manifest.
+000010.270|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell1_out.anm" because it's not in the manifest.
+000010.270|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_run_haste_in.anm" because it's not in the manifest.
+000010.271|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell1_dash.anm" because it's not in the manifest.
+000010.271|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_long_p90.anm" because it's not in the manifest.
+000010.271|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_long_p-90.anm" because it's not in the manifest.
+000010.272|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_long_p180.anm" because it's not in the manifest.
+000010.272|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack1_long_p-180.anm" because it's not in the manifest.
+000010.273|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_run.anm" because it's not in the manifest.
+000010.273|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_run_in.anm" because it's not in the manifest.
+000010.273|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_run_fast.anm" because it's not in the manifest.
+000010.274|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_run_fast_in.anm" because it's not in the manifest.
+000010.274|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_lantern_open.anm" because it's not in the manifest.
+000010.274|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_taunt2.anm" because it's not in the manifest.
+000010.277|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_dance_loop.anm" because it's not in the manifest.
+000010.278|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell3_p-90.anm" because it's not in the manifest.
+000010.278|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell3_p90.anm" because it's not in the manifest.
+000010.278|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell3_p180.anm" because it's not in the manifest.
+000010.279|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_spell3_p-180.anm" because it's not in the manifest.
+000010.279|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_lantern_null.anm" because it's not in the manifest.
+000010.280|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack2_mid.anm" because it's not in the manifest.
+000010.280|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/base/animations/thresh_attack2_short.anm" because it's not in the manifest.
+000010.280|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "characters/thresh/skins/skin02/thresh_skin02_recall.anm" because it's not in the manifest.
+000010.297|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_skn1_Ghost.dds>
+
+000010.297|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find skinned mesh file <> or <>.
+
+000010.305|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin04_props_02.dds>
+
+000010.305|  ERROR| Data Error on expression: always
+ Data Error message: Effects could not find skinned mesh file <> or <>.
+
+000010.342|  ERROR| Cant load particle system Thresh_skn1_BA_trail.troy
+000010.342|  ERROR| Failed to preload particle system "Thresh_skn1_BA_trail.troy"
+000011.284|  ERROR| Cant load particle system sru_baron_rune05.troy
+000011.284|  ERROR| Failed to preload particle system "sru_baron_rune05.troy"
+000011.284|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_shield_dropgears_sound.troy
+000011.284|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_shield_dropgears_sound.troy"
+000011.284|  ERROR| Cant load particle system SRU_SOG_Turret_spawn_staff_sound.troy
+000011.284|  ERROR| Failed to preload particle system "SRU_SOG_Turret_spawn_staff_sound.troy"
+000011.284| ALWAYS| GAMESTATE_GAMELOOP PreRender
+000011.285| ALWAYS| GAMESTATE_GAMELOOP Render
+000011.423| ALWAYS| GAMESTATE_GAMELOOP FlushText
+000011.423|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "Data/loadtimings_Map11_default.txt" because it's not in the manifest.
+000011.440| ALWAYS| Start Main Loop
+000011.440| ALWAYS| Waiting for all players to connect
+000011.440| ALWAYS| Waiting for all players to connect end
+000011.661| ALWAYS| Creating Hero Thresh...
+000011.667|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcube/testcube.bin" because it's not in the manifest.
+000011.672|  ERROR| Riot::RADS::IO::OpenFile: RADS cannot open file "DATA/Characters/testcuberender/testcuberender.bin" because it's not in the manifest.
+000011.674|  ERROR| Cant load particle system thresh_skin03_soul_enemy.troy
+000011.674|  ERROR| Failed to preload particle system "thresh_skin03_soul_enemy.troy"
+000011.675|  ERROR| Cant load particle system thresh_skin03_soul.troy
+000011.675|  ERROR| Failed to preload particle system "thresh_skin03_soul.troy"
+000011.681|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin03_Z_Flecks_02.dds>
+
+000011.681|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin03_Z_Flecks_01.dds>
+
+000011.681|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin03_Z_Flames_01.dds>
+
+000011.681|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin03_Z_Soul_01.dds>
+
+000011.681|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin03_Z_Soul_01.dds>
+
+000011.682|  ERROR| Cant load particle system Thresh_Skin03_Soul_Trail_green.troy
+000011.682|  ERROR| Failed to preload particle system "Thresh_Skin03_Soul_Trail_green.troy"
+000011.682|  ERROR| Data Error on expression: always
+ Data Error message: Missing effect texture <Thresh_Skin03_Z_Flash_03.dds>
+
+000011.682|  ERROR| Cant load particle system thresh_skin03_soul_giant.troy
+000011.682|  ERROR| Failed to preload particle system "thresh_skin03_soul_giant.troy"
+000011.685|  ERROR| Cant load particle system thresh_skin03_soul_enemy.troy
+000011.685|  ERROR| Failed to preload particle system "thresh_skin03_soul_enemy.troy"
+000011.685|  ERROR| Cant load particle system thresh_skin03_soul.troy
+000011.685|  ERROR| Failed to preload particle system "thresh_skin03_soul.troy"
+000011.685|  ERROR| Cant load particle system thresh_skin03_soul_giant.troy
+000011.685|  ERROR| Failed to preload particle system "thresh_skin03_soul_giant.troy"
+000011.686| ALWAYS| Spawning champion (Thresh) with skinID 2 on team 100 for clientID 0 and summonername (INRI VG Dragon) (is HUMAN PLAYER)
+000011.714| ALWAYS| Hero Thresh(2) created for INRI VG Dragon
+000011.724|  ERROR| Cant load particle system Starcall_tar.troy
+000011.724|  ERROR| Failed to preload particle system "Starcall_tar.troy"
+000011.724|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000011.724|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000011.734|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000011.734|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000011.734|  ERROR| Cant load particle system AnnieBasicAttack_mis.troy
+000011.734|  ERROR| Failed to preload particle system "AnnieBasicAttack_mis.troy"
+000012.379| ALWAYS| Spawning heroes/minions
+000012.401| ALWAYS| Finished spawning heroes/minions
