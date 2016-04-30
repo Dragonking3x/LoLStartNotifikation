@@ -89,6 +89,7 @@ public class Cliend implements Runnable{
                                     try {
 
 
+                                        
                                             if (in.readLine().equalsIgnoreCase("exit")) {
                                                 out.println("Disconnected");
                                                 exit[0] = true;
@@ -98,10 +99,12 @@ public class Cliend implements Runnable{
 
                                     } catch (Exception e) {
                                         e.printStackTrace();
+                                        setGetInThreat(false);
                                     }
                                     System.out.println("ttt");
 
                                 }
+                                return;
                             }
                         });
 
@@ -128,6 +131,8 @@ public class Cliend implements Runnable{
 
                             }
 
+                            Thread.sleep(100);
+
 
 
 
@@ -142,15 +147,22 @@ public class Cliend implements Runnable{
                         cliendSocked.close();
                     } catch (UnknownHostException e) {
                         e.printStackTrace();
+                        setGetInThreat(false);
 
 
                     } catch (IOException e) {
                         e.printStackTrace();
+                        setGetInThreat(false);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                        setGetInThreat(false);
                     }
+
 
 
             } catch (IOException e) {
                 e.printStackTrace();
+                setGetInThreat(false);
             }
         }
 
