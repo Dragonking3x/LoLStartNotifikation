@@ -88,9 +88,8 @@ public class Cliend implements Runnable{
 
                                     try {
 
-
-                                        
-                                            if (in.readLine().equalsIgnoreCase("exit")) {
+                                        String line = in.readLine();
+                                            if (line.equalsIgnoreCase("exit")) {
                                                 out.println("Disconnected");
                                                 exit[0] = true;
                                                 setGetInThreat(false);
@@ -99,6 +98,7 @@ public class Cliend implements Runnable{
 
                                     } catch (Exception e) {
                                         e.printStackTrace();
+                                        exit[0] =true;
                                         setGetInThreat(false);
                                     }
                                     System.out.println("ttt");
@@ -164,6 +164,8 @@ public class Cliend implements Runnable{
                 e.printStackTrace();
                 setGetInThreat(false);
             }
+            System.out.println("TT");
+
         }
 
     }
