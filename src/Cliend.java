@@ -100,6 +100,13 @@ public class Cliend implements Runnable{
                                         e.printStackTrace();
                                         exit[0] =true;
                                         setGetInThreat(false);
+
+                                        try {
+                                            Thread.sleep(100);
+                                        } catch (InterruptedException e1) {
+                                            e1.printStackTrace();
+                                        }
+
                                     }
                                     System.out.println("ttt");
 
@@ -148,14 +155,30 @@ public class Cliend implements Runnable{
                     } catch (UnknownHostException e) {
                         e.printStackTrace();
                         setGetInThreat(false);
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e1) {
+                            e1.printStackTrace();
+                        }
 
 
                     } catch (IOException e) {
                         e.printStackTrace();
                         setGetInThreat(false);
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e1) {
+                            e1.printStackTrace();
+                        }
+
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                         setGetInThreat(false);
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e1) {
+                            e1.printStackTrace();
+                        }
                     }
 
 

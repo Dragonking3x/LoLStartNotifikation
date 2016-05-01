@@ -23,7 +23,6 @@ public class SearchForNewTxT {
             if (folder.listFiles().length > 0) {
                 for (int i = 0; i < listFiles.length; i++) {
 
-                    //returnText = listFiles[listFiles.length - 1].getName();
                     if (System.currentTimeMillis() - listFiles[i].lastModified() < time) {
                         returnText = listFiles[i].getName();
                         i = listFiles.length;
