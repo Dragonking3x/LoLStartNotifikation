@@ -32,7 +32,7 @@ public class UI {
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        JFrame frame = new JFrame("UI");
+        JFrame frame = new JFrame("LoL Alert");
         frame.setContentPane(new UI().panel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
